@@ -11,7 +11,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 function Footer() {
   return (
     <>
-     <div className="container-fluid bg-dark footer-text mt-1">
+     <div className="container-fluid bg-dark footer-text mt-1 footerbg">
       <div className="row">
         <div className="col-6">
           <p className='text-center'> 

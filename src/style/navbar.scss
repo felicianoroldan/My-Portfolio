@@ -265,7 +265,9 @@ ul {
 
 
 .bg-navbar{
-  background-color: var(--grey-500);
+  background-image: url("../assets/photos/web-dev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-text{

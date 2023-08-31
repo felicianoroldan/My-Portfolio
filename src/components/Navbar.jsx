@@ -1,4 +1,4 @@
-import pixlogo from "../assets/pixlogo.png";
+import pixlogo from "../assets/photos/pixlogo.png";
 import "../style/navbar.scss";
 import 'animate.css';
 
@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-navbar">
         <div className="container-fluid">
           <div className="logo">
-            <img src={ pixlogo } alt="Dan-Photo" width="85"/>
+            <img src={ pixlogo } alt="Dan-Photo" width="50"/>
           </div>
           <button className="navbar-toggler nav-menu nav-text " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon <GiHamburgerMenu/>"></span>

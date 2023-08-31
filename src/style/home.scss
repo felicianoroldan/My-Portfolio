@@ -284,6 +284,13 @@ ul {
   color: var(--accent);
 }
 
+.main-background{
+  background-image: url("../assets/photos/web-dev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 
 @media only screen and (max-width: 450px) {
 

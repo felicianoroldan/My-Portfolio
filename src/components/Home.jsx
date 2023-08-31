@@ -1,16 +1,13 @@
 import React from 'react';
 import "../style/home.scss";
-import fel from "../assets/fel.png";
+import fel from "../assets/photos/fel.png";
 import 'animate.css';
 
 
 function Home() {
   return (
     <>
-     <div className="container-fluid " style={{ backgroundImage: `url("./src/assets/background-img.png")`,
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-      height: "82vh" }}>
+     <div className="container-fluid main-background">
       <div className="row ">
         <div className="col-12 col-md-6">
           <h1 className="hi-there animate__animated animate__zoomIn animate__delay-2s">Hi There!</h1>
