@@ -258,36 +258,3 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
-
-//start footer
-
-
-.footerbg{
-  background-image: url("../assets/photos/web-dev.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.copyright{
-  color: var(--white);
-  font-family: 'sans-serif';
-}
-
-.footer-text{
-  color: var(--white);
-  
-}
-
-
-.icons:hover{
-   color: var(--grey-500);
-}
-
-
-
-@media only screen and (min-width: 970px) {
-
-  .copyright{
-    margin-left: 40%;
-  }
-}

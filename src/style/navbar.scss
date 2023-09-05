@@ -274,20 +274,11 @@ ul {
   font-size: 1.2em;
   font-weight: 400;
   color: var(--white); 
-  
-
 }
 
 .nav-text:hover{
-  color: var(--koji-orange);
+  color: var(--accent); 
 }
-
-.nav-item:hover{
-  animation: zoom-in-zoom-out 2s;
-}
-
-
-
 
 
 
@@ -315,7 +306,7 @@ ul {
   }
 
   .nav-item{
-    margin-left: 20%;
+    margin-left: 32%;
   }
 
   .nav-text{

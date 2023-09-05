@@ -288,11 +288,23 @@ ul {
   background-image: url("../assets/photos/web-dev.png");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 84vh;
   
 }
 
+.about-me-bg{
+  background-color: var(--accent);
+  font-weight: 500;
+  margin-left: 10%;
+}
 
-@media only screen and (max-width: 450px) {
+.p3{
+  color: #0c2c37;
+}
+
+
+
+@media only screen and (min-width: 450px) {
 
   .hi-there{
     margin-top: 10px;
@@ -300,7 +312,21 @@ ul {
 
   .about-me{
     margin-top: 20px;
+    margin-left: -10%;
   }
+
+  .p1{
+    font-size: 1.3em;
+  }
+
+  .p2{
+    font-size: .8em;
+  }
+
+  .p3{
+    font-size: 1em;
+  }
+
 }
 
 
@@ -336,6 +362,14 @@ ul {
   .fel-img{
     margin-top: -4%;
     margin-left: 10%;
+  }
+
+  .p2{
+    font-size: 1.1em;
+  }
+
+  .p3{
+    font-size: 2em;
   }
 
 }
