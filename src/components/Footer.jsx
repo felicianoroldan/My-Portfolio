@@ -1,5 +1,5 @@
 import React from 'react'
-import "../style/footer.scss";
+import "/src/style/footer.scss";
 import { BsFacebook } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineGithub } from "react-icons/ai";

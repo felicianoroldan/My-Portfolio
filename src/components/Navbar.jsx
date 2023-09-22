@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import pixlogo from "../assets/photos/pixlogo.png";
-import "../style/navbar.scss";
+import "/src/style/navbar.scss";
 import 'animate.css';
 
 function Navbar() {

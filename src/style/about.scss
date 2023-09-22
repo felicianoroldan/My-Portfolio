@@ -23,7 +23,7 @@ html {
   --primary-700: #003c58;
   --primary-800: #00344c;
   --primary-900: #002d41;
-  --accent: #FDC85C;      /*original color*/
+  --accent: #4FC0D0;      /*original color*/
 
   /* grey */
   --grey-50: #f8fafc;
@@ -44,7 +44,7 @@ html {
   --red-dark: #842029;
   --green-light: #d1e7dd;
   --Pharmaceutical-green: #0B7D46 ;  /*original color*/
-  --koji-orange: #F5B445;  /*original color*/
+  --rgb-green: #A2FF86;  /*original color*/
 
   /* fonts  */
   --headingFont: 'Roboto', sans-serif;
@@ -257,4 +257,201 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   margin-top: 1rem;
+}
+
+
+
+
+
+//about
+
+.backg-stretch{
+  height: auto;
+  width: auto;
+  background-attachment: fixed;
+}
+
+.about-portfolio{
+  color: var(--rgb-green);
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about-margin{
+ margin-top: 4rem;
+}
+
+.about-profile{
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--grey-300);
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+
+.hr{
+  display: flex;
+  justify-content: center;
+  color: var(--accent);
+  margin-top: 3rem;
+}
+
+.myServices{
+  color: var(--rgb-green);
+  margin-top: 2rem;
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.laptopimg{
+  width: 16rem;
+}
+
+.develop{
+  color: var(--rgb-green);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+}
+
+.dev-text{
+  color: var(--grey-200);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+  border: transparent;
+
+}
+
+.teckSkills{
+  font-size: 2.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--rgb-green);
+  margin-top: 2rem;
+
+}
+
+.techcards{
+  margin-top: 2rem;
+  
+}
+
+.bg-card{
+  background-color: rgba(0, 0, 0, 0.028);
+
+}
+
+.bootstapimg{
+  display: flex;
+  justify-content: center;
+}
+
+.maincard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience{
+  margin-top: 4rem;
+}
+
+.respon{
+  color: var(--grey-100);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about-portfolio{
+    font-size: 1.5rem;
+    
+  }
+
+  .junior{
+    font-size: .8rem;
+    margin-top: -20rem;
+  }
+
+  .myServices{
+    font-size: 1.5rem;
+  }
+
+  .develop{
+    font-size: 1.1rem;
+  }
+
+  .dev-text{
+    font-size: .9rem;
+  }
+
+
+  .teckSkills{
+    font-size: 1.5rem;
+  }
+
+  .kbt{
+    color: var(--rgb-green);
+    font-size: 1.2rem;
+  }
+  
+
+  .about-profile{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--grey-300);
+    font-size: .8rem;
+    font-weight: 500;
+  
+  }
+
+  .cardsSpacing{
+    margin-left: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .cardsSpacing{
+    margin-left: 3rem;
+  }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .laptopimg{
+    width: 18rem;
+  }
+
+  .cardsSpacing{
+    margin-left: 4rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cardsSpacing{
+    margin-left: 5rem;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .kbt{
+    color: var(--rgb-green);
+    font-size: 1.3rem;
+  }
+
+  .responsetext{
+    margin-bottom: 8rem;
+  }
+
+  .cardsSpacing{
+    margin-left: 6rem;
+  }
 }
