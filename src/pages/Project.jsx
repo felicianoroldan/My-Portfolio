@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import '/src/style/project.scss';
 import steadfastness1 from "../assets/photos/steadfastness1.png"
 import travelBlog from "../assets/photos/travelBlog.png"
+import "/src/style/project.scss";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
 
 
 
@@ -15,7 +16,7 @@ function Project() {
 
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <div className='main-background'>
         <div className='d-flex justify-content-center'>
           <div className='col-12 col-md-10 col-sm-9'>
@@ -28,11 +29,11 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-4">
+        <div className="d-flex justify-content-evenly mt-4">
           <div className="col-11">
             <nav className='mt-4 d-flex justify-content-center'>
-              <div className="col-12">
-                <div className="nav nav-tabs w-100" id="nav-tab" role="tablist">
+              <div className="col-12 w-100 d-flex justify-content-center">
+                <div className="nav nav-tabs  tabline" id="nav-tab" role="tablist">
                   <button className="nav-link  active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><span className='techUsed '>HTML/CSS</span></button>
                   <button className="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><span className='techUsed'>BOOTSTRAP</span></button>
                   <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><span className='techUsed'>JS</span></button>
@@ -81,7 +82,7 @@ function Project() {
                 <div className="container mt-5">
                   <div className="d-flex justify-content-center">
                     <div className="col-10">
-                      <p className='dev-text text-center travelBlogmeaning mt-2'><span className='travelmean'>Steadfastness</span> is a friendly website that can help 
+                      <p className='dev-text text-center travelBlogmeaning mt-3'><span className='travelmean'>Steadfastness</span> is a friendly website that can help 
                       those who want to become physically and mentally fit. 
                       Steadfastness promotes a holistic approach to health, 
                       offering a wide range of resources, including workout routines, 
@@ -96,7 +97,7 @@ function Project() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

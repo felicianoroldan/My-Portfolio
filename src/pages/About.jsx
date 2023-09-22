@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import "/src/style/about.scss";
 import laptop from "../assets/photos/laptop.png";
 import html from "../assets/photos/html.png";
@@ -11,6 +9,8 @@ import Js from "../assets/photos/Js.png";
 import react from "../assets/photos/react.png";
 import createweb from "../assets/photos/createweb.png";
 import webmaintenance from "../assets/photos/webmaintenance.png";
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 
 
@@ -26,7 +26,7 @@ function About() {
 
   return (
     <>
-     <Navbar />
+    <Navbar/>
     <div className="container-fluid text-center main-background backg-stretch">
       <div className='d-flex justify-content-center'>
         <div className='col-12 col-md-10 col-sm-9'>
@@ -56,14 +56,18 @@ function About() {
         <div className='col-9 col-8 mt-5'>
           <div className="row d-flex justify-content-center">
             <div className='col-9 col-md-6 sm-5'>
-              <img src={laptop} alt="laptop-photo" className='laptopimg'/>
+              <div className="devWeb">
+                <img src={laptop} alt="laptop-photo" className='laptopimg'/>
+              </div>
               <h4 className='develop mt-2'>CREATE WEB APPLICATION</h4>
               <p className='dev-text text-center mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Accusantium odit temporibus ipsam ipsum veniam magni possimus tempora. Asperiores consectetur maiores
               culpa id cupiditate quaerat, minima quos nam doloremque magnam. In?</p>
             </div>
             <div className='col-9 col-md-6 sm-5'>
-              <img src={createweb} alt="createweb-photo" className='laptopimg'/>
+              <div className="devWeb">
+                <img src={createweb} alt="createweb-photo" className='laptopimg'/>  
+              </div>
               <h4 className='develop mt-2'>DEVELOP A WEBSITE</h4>
               <p className='dev-text text-center mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Accusantium odit temporibus ipsam ipsum veniam magni possimus tempora. Asperiores consectetur maiores
@@ -73,8 +77,10 @@ function About() {
         </div>
         <div className='col-10 col-8 mt-5'>
           <div className="d-flex justify-content-center">
-            <div className='col-9 col-md-6 sm-4'>
-              <img src={webmaintenance} alt="webmaintenance-photo" className='laptopimg'/>
+            <div className='col-9 col-md-6 sm-5'>
+              <div className="devWeb">
+               <img src={webmaintenance} alt="webmaintenance-photo" className='laptopimg'/>
+              </div>
               <h4 className='develop mt-2'>WEBSITE MAINTENANCE</h4>
               <p className='dev-text text-center mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Accusantium odit temporibus ipsam ipsum veniam magni possimus tempora. Asperiores consectetur maiores
@@ -91,7 +97,7 @@ function About() {
       <div className='col-12'>
         <h1 className='teckSkills'>TECHNICAL SKILLS</h1>
       </div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="col-10 cardsSpacing">
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
@@ -190,7 +196,7 @@ function About() {
         </div>
       </div>
     </div>
-     <Footer />
+    <Footer/>
     </>
   )
 }

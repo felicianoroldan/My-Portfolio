@@ -14,7 +14,6 @@ function Home() {
   return (
     <>
       <Navbar />
-
       <div className="container-fluid main-background">
         <div className="row">
           <div className="col-12">

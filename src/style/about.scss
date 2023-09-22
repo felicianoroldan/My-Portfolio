@@ -265,6 +265,13 @@ ul {
 
 //about
 
+.main-background{
+  background-image: url("../assets/photos/web-dev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .backg-stretch{
   height: auto;
   width: auto;
@@ -316,7 +323,7 @@ ul {
 .dev-text{
   color: var(--grey-200);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.1rem;
+  // font-size: .8rem;
   border: transparent;
 
 }
@@ -383,7 +390,7 @@ ul {
   }
 
   .dev-text{
-    font-size: .9rem;
+    font-size: 3rem;
   }
 
 
@@ -408,6 +415,11 @@ ul {
   .cardsSpacing{
     margin-left: 2rem;
   }
+
+  .devWeb{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -416,6 +428,7 @@ ul {
   .cardsSpacing{
     margin-left: 3rem;
   }
+
 
 
 }

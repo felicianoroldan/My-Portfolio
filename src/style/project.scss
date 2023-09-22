@@ -262,13 +262,14 @@ ul {
 //Start Project
 
 
-.main-background{
-  background-image: url("src/assets/photos/web-dev.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 87vh;
-}
+// .main-background{
+//   background-image: url("src/assets/photos/web-dev.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   height: auto;
+// }
+
 
 .projectTitle{
   color: var(--accent);
@@ -342,7 +343,16 @@ ul {
     font-size: 1.3rem;
   }
 
+  .tabline{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
 
+
+  .dev-text{
+    font-size: .8rem;
+  }
 
 }
 
@@ -371,6 +381,15 @@ ul {
     margin-left: -1.2rem;
   }
 
+  .techUsed{
+    font-size: 1.3rem;
+  }
+
+  .tabline{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+  }
 
 
 }
@@ -427,6 +446,11 @@ ul {
    justify-content: center;
    margin-top: 4rem;
   }
+
+  .techUsed{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -457,7 +481,9 @@ ul {
   }
 
   .main1{
-    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-left: -4rem;
   }
 
   .steadmain{
@@ -480,7 +506,18 @@ ul {
   .maincontainerstead{
     margin-top: 10rem;
   }
+
+  .tabline{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+  }
 }
 
+@media only screen and (min-width: 1505px) {
+  .main1{
+    margin-left: 9.5rem;
+  }
+}
 
 
