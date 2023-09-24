@@ -262,13 +262,12 @@ ul {
 //Start Project
 
 
-// .main-background{
-//   background-image: url("src/assets/photos/web-dev.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-attachment: fixed;
-//   height: auto;
-// }
+.main-background{
+  background-image: url("src/assets/photos/web-dev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 
 .projectTitle{
@@ -322,8 +321,8 @@ ul {
   }
 
   .imgsteadfastness{
-    width: 20rem;
-    height: 22rem;
+    width: 10rem;
+    height: 11rem;
   }
 
   .travelmean{
@@ -332,15 +331,14 @@ ul {
   }
 
   .travelBlogmeaning{
-    font-size: .7rem;
     margin-top: -10rem;
 
   }
 
   .view{
-    margin-top: -3.5rem;
-    margin-left: 5.9rem;
-    font-size: 1.3rem;
+    margin-top: -2rem;
+    margin-left: 5.7rem;
+    font-size: .9rem;
   }
 
   .tabline{
@@ -382,7 +380,7 @@ ul {
   }
 
   .techUsed{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .tabline{
@@ -448,7 +446,7 @@ ul {
   }
 
   .techUsed{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
 }
@@ -457,8 +455,8 @@ ul {
 @media only screen and (min-width: 1200px) {
  
   .imgtravelblog{
-    width: 23rem;
-    height: 24rem;
+    width: 20rem;
+    height: 22rem;
     margin-left: 3rem;
   }
 
@@ -504,7 +502,7 @@ ul {
   }
 
   .maincontainerstead{
-    margin-top: 10rem;
+    margin-left: 1rem;
   }
 
   .tabline{
@@ -517,6 +515,19 @@ ul {
 @media only screen and (min-width: 1505px) {
   .main1{
     margin-left: 9.5rem;
+  }
+
+  .nav-link{
+    font-size: .9rem;
+  }
+
+  .about-margin{
+    margin-top: 2rem;
+    font-size: .8rem;
+  }
+
+  .maincontainerstead{
+    margin-left: -9rem;
   }
 }
 

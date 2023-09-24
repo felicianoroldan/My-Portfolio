@@ -265,7 +265,7 @@ ul {
   background-image: url("../assets/photos/web-dev.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 86vh;
+  height: 85vh;
 }
 
 .im{
@@ -285,7 +285,6 @@ ul {
 .name{
   color: var(--white);
   font-weight: 600;
-  font-size: 3em;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -296,13 +295,13 @@ ul {
 
 .about{
   color: var(--white);
-  font-size: 1.5em;
+  font-size: .9rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .about-me{
   margin-top: 10%;
-  font-size: 1.8em;
+  font-size: 1rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -317,18 +316,14 @@ ul {
 
 @media only screen and (max-width: 560px) {
 
-  .main-background{
-    height: 100vh;
-  }
 
   
   .hiThere{
-    font-size: 1.2rem;
-    margin-top: -20%;
+    font-size: 1rem;
   }
 
   .im{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: -4%;
 
   }
@@ -346,9 +341,9 @@ ul {
   }
 
   .creating{
-    font-size: .7em;
-    margin-top: 80%;
-    margin-left: -8%;
+    font-size: .8em;
+    margin-top: 2rem;
+    margin-left: -2%;
 
   }
 
@@ -360,36 +355,19 @@ ul {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 667px) {
-  .hi-there{
-    margin-top: 10%;
-    font-size: 3em;
-
-  }
+ 
 
   .name{
-    margin-top: 7%;
-    font-size: 2.5em;
+    font-size: 1.5rem;
 
   }
 
-  .fullstack{
-    margin-top: 2%;
-    font-size: 1.7em;
 
-  }
-
-  .about{
-    margin-top: 50%;
-  }
 
   .creating{
     margin-top: 40%;
   }
   
-  .box-1{
-    margin-top: 30%;
-
-  }
 }
 
 
@@ -407,21 +385,19 @@ ul {
 
   .hi-there{
     margin-top: 10%;
-    font-size: 3em;
-
 
   }
 
   .name{
     margin-top: 7%;
-    font-size: 2.5em;
+    font-size: 2em;
 
 
   }
 
   .fullstack{
     margin-top: 2%;
-    font-size: 1.7em;
+    font-size: 1em;
 
 
   }
@@ -433,63 +409,67 @@ ul {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1200px) {
   .fel-img{
     margin-top: -28px;
   }
 
   .hi-there{
     margin-top: 10%;
-    font-size: 3em;
+    font-size: 2em;
 
   }
 
   .name{
     margin-top: 7%;
-    font-size: 2.5em;
+    font-size: 2em;
 
   }
 
   .fullstack{
     margin-top: 2%;
-    font-size: 1.7em;
+    font-size: 1em;
 
   }
 
   .about{
     margin-top: 4%;
   }
+
 
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1320px) {
+@media only screen and (min-width: 1200px) {
   .box-1{
     margin-left: 10%;
-    margin-top: 15%;
   }
 
   .hi-there{
-    margin-top: 10%;
-    font-size: 3em;
+    font-size: 2rem;
 
   }
 
   .name{
-    margin-top: 5%;
-    font-size: 2.5em;
+    margin-top: 2rem;
+    font-size: 2rem;
 
   }
 
   .fullstack{
     margin-top: 2%;
-    font-size: 1.7em;
+    font-size: 1rem;
 
   }
 
   .about{
-    margin-top: 4%;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .box-1{
+    margin-top: 6rem;
   }
 
 }

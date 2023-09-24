@@ -271,7 +271,7 @@ ul {
 }
 
 .nav-text{
-  font-size: 1.2em;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--white); 
 }
@@ -297,7 +297,7 @@ ul {
 
 
   .nav-menu{
-    margin-left: 20%;
+    margin-left: 45%;
   }
 
 
@@ -306,12 +306,25 @@ ul {
   }
 
   .nav-item{
-    margin-left: 32%;
+    margin-left: 12%;
   }
 
-  .nav-text{
-    margin-left: 50px;
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+  .nav-menu{
+    margin-left: 60%;
   }
+
+
+  .nav-item{
+    margin-left: 12%;
+  }
+
 
 
 }
