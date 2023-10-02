@@ -26,7 +26,10 @@ function About() {
 
   return (
     <>
-    <Navbar/>
+    <div className='sticky-fixed'>
+      <Navbar className="sticky-fixed"/>
+    </div>
+    
     <div className="container-fluid text-center main-background backg-stretch">
       <div className='d-flex justify-content-center'>
         <div className='col-12 col-md-10 col-sm-9'>
