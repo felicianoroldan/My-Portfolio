@@ -300,7 +300,11 @@ ul {
 
 
 
+
+
 //responsiveness
+
+
 
 
 
@@ -343,13 +347,21 @@ ul {
 
   .tabline{
     display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
+    width: 90vw;
   }
 
 
   .dev-text{
     font-size: .8rem;
+  }
+
+  .techUsed{
+    font-size: .7rem;
+  }
+
+  .zamb{
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -410,6 +422,10 @@ ul {
 
   .main1{
     margin-left: 0rem;
+  }
+
+  .zamb{
+    margin-left: 2.8rem;
   }
 
 }

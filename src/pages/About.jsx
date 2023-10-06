@@ -56,18 +56,20 @@ function About() {
         <div className='col-12'>
           <h1 className='myServices'>MY SERVICES</h1>
         </div>
-        <div className='col-9 col-8 mt-5'>
+        <div className='col-11 mt-5'>
           <div className="row d-flex justify-content-center">
-            <div className='col-9 col-md-6 sm-5'>
+            <div className='col-8 col-md-11'>
               <div className="devWeb">
                 <img src={laptop} alt="laptop-photo" className='laptopimg'/>
               </div>
               <h4 className='develop mt-2'>CREATE WEB APPLICATION</h4>
-              <p className='dev-text text-center mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Accusantium odit temporibus ipsam ipsum veniam magni possimus tempora. Asperiores consectetur maiores
-              culpa id cupiditate quaerat, minima quos nam doloremque magnam. In?</p>
             </div>
-            <div className='col-9 col-md-6 sm-5'>
+            <div className="col-8 col-md-11">
+              <p className='dev-text text-center mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Accusantium odit temporibus ipsam ipsum veniam magni possimus tempora. Asperiores consectetur maiores
+                culpa id cupiditate quaerat, minima quos nam doloremque magnam. In?</p>
+            </div>
+            <div className='col-10 col-md-10'>
               <div className="devWeb">
                 <img src={createweb} alt="createweb-photo" className='laptopimg'/>  
               </div>
@@ -80,7 +82,7 @@ function About() {
         </div>
         <div className='col-10 col-8 mt-5'>
           <div className="d-flex justify-content-center">
-            <div className='col-9 col-md-6 sm-5'>
+            <div className='col-10'>
               <div className="devWeb">
                <img src={webmaintenance} alt="webmaintenance-photo" className='laptopimg'/>
               </div>
