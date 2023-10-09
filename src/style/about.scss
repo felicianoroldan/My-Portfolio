@@ -280,7 +280,7 @@ ul {
 
 .about-portfolio{
   color: var(--rgb-green);
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -317,13 +317,13 @@ ul {
 .develop{
   color: var(--rgb-green);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .dev-text{
   color: var(--grey-200);
   font-family: 'Courier New', Courier, monospace;
-  // font-size: .8rem;
+  font-size: 1rem;
   border: transparent;
 
 }
@@ -372,7 +372,7 @@ ul {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .about-portfolio{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     
   }
 
@@ -382,25 +382,25 @@ ul {
   }
 
   .myServices{
-    font-size: 1.5rem;
-  }
-
-  .develop{
     font-size: 1.1rem;
   }
 
+  .develop{
+    font-size: .8rem;
+  }
+
   .dev-text{
-    font-size: 3rem;
+    font-size: .6rem;
   }
 
 
   .teckSkills{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .kbt{
     color: var(--rgb-green);
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
 
@@ -419,6 +419,10 @@ ul {
   .devWeb{
     display: flex;
     justify-content: center;
+  }
+
+  .laptopimg{
+    width: 8rem;
   }
 }
 

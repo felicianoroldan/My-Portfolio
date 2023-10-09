@@ -270,36 +270,6 @@ ul {
 }
 
 
-.projectTitle{
-  color: var(--accent);
-  font-size: 2.5rem;
-  font-weight: 100;
-}
-
-
-.stdfstnss{
-  color: var(--accent);
-  margin-top: 5rem;
-
-}
-
-.nav-tabs{
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.5rem;
-  color: var(--accent);
-}
-
-.techUsed{
-  color: var(--accent);
-}
-
-.dev-text{
-  font-size: 1.2rem;
-}
-
-
-
 
 
 //responsiveness
@@ -310,245 +280,34 @@ ul {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .nav-tabs{
-    display: flex;
-    justify-content: space-between;
-    font-size: .9rem;
-    color: var(--accent);
-  }
-
-  .imgtravelblog{
-    width: 9.5rem;
-    height: 10rem;
-    margin-top: 1rem;
-    margin-left: -1rem;
-  }
-
-  .imgsteadfastness{
-    width: 10rem;
-    height: 11rem;
-  }
-
-  .travelmean{
-    color: var(--rgb-green);
-    font-size: .8rem;
-  }
-
-  .travelBlogmeaning{
-    margin-top: -10rem;
-
-  }
-
-  .view{
-    margin-top: -2rem;
-    margin-left: 5.7rem;
-    font-size: .9rem;
-  }
-
-  .tabline{
-    display: flex;
-    width: 90vw;
-  }
-
-
-  .dev-text{
-    font-size: .8rem;
-  }
-
-  .techUsed{
-    font-size: .7rem;
-  }
-
-  .zamb{
-    display: flex;
-    justify-content: center;
-  }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .imgtravelblog{
-    width: 13.5rem;
-    height: 15.5rem;
-    margin-top: 1.5rem;
-    margin-left: -1rem;
-  }
-  
-  .travelmean{
-    color: var(--rgb-green);
-    font-size: 1.5rem;
-  }
-
-  .view{
-    margin-top: -4.5rem;
-    margin-left: 6rem;
-    font-size: 1.3rem;
-  }
-
-  .travelBlogmeaning{
-    font-size: 1rem;
-    margin-left: -1.2rem;
-  }
-
-  .techUsed{
-    font-size: 1rem;
-  }
-
-  .tabline{
-    display: flex;
-    justify-content: space-evenly;
-    width: 90vw;
-  }
-
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-  .imgtravelblog{
-    width: 13.5rem;
-    height: 15rem;
-    margin-top: 1.5rem;
-    margin-left: 2rem;
-  }
 
-  .view{
-    margin-top: -4.5rem;
-    margin-left: 6.5rem;
-    font-size: 1.3rem;
-  }
-
-  .main1{
-    margin-left: 0rem;
-  }
-
-  .zamb{
-    margin-left: 2rem;
-  }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-  .imgtravelblog{
-    width: 20rem;
-    height: 22rem;
-    margin-left: -1rem;
-  }
-
-  .travelBlogmeaning{
-    font-size: 1.2rem;
-    margin-left: 2rem;
-  }
-
-  .view{
-    margin-top: -4.5rem;
-    margin-left: 13.5rem;
-    font-size: 1.5rem;
-  }
-  
-
-  .main1{
-    margin-left: 2rem;
-  }
-
-  .view1{
-   display: flex;
-   justify-content: center;
-   margin-top: 4rem;
-  }
-
-  .techUsed{
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-
-  .zamb{
-    margin-left: 2.8rem;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
- 
-  .imgtravelblog{
-    width: 20rem;
-    height: 22rem;
-    margin-left: 3rem;
-  }
-
-  .travelBlogmeaning{
-    font-size: 1.2rem;
-    margin-left: 4rem;
-    
-  }
 
 
-  .travelmean{
-    color: var(--rgb-green);
-    font-size: 1.8rem;
-  }
-
-  .view{
-    margin-top: -5rem;
-    margin-left: 17rem;
-    font-size: 1.5rem;
-  }
-
-  .main1{
-    display: flex;
-    justify-content: center;
-    margin-left: -4rem;
-  }
-
-  .steadmain{
-    margin-left: 6rem;
-  }
-
-  .imgsteadfastness{
-    width: 13rem;
-    height: 14rem;
-  }
-
-  .view1{
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    font-size: 1.5rem;
-    color: var(--accent);
-  }
-
-  .maincontainerstead{
-    margin-left: 1rem;
-  }
-
-  .tabline{
-    display: flex;
-    justify-content: space-evenly;
-    width: 80vw;
-  }
 }
 
 @media only screen and (min-width: 1505px) {
-  .main1{
-    margin-left: 9.5rem;
-  }
 
-  .nav-link{
-    font-size: .9rem;
-  }
-
-  .about-margin{
-    margin-top: 2rem;
-    font-size: .8rem;
-  }
-
-  .maincontainerstead{
-    margin-left: -9rem;
-  }
 }
 
 
