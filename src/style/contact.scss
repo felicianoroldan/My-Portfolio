@@ -258,3 +258,43 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+// start contact
+
+.contact-background{
+  background-image: url("/src/assets/photos/web-dev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-portfolio{
+  color: var(--rgb-green);
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.message-container{
+  width: 36rem;
+  height: 33.3rem;
+  background: #0c3444;
+}
+
+.Leave{
+  font-weight: 300;
+}
+
+.message{
+  height: 40rem;
+}
+
+.email{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+
+

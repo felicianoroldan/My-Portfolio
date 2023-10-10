@@ -262,11 +262,16 @@ ul {
 //Start Project
 
 
-.main-background{
+.project-background{
   background-image: url("/src/assets/photos/web-dev.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+
+.htmlcssbootstrap{
+  background-color: #ffc107;
 }
 
 
@@ -280,12 +285,18 @@ ul {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  .project-steadfastness{
+    margin-top: 1.5rem;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+  .project-steadfastness{
+    font-size: 1rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -297,6 +308,11 @@ ul {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+  .portfolio{
+    margin-bottom: 4rem;
+  }
+
 
 }
 
